@@ -58,8 +58,8 @@
                                 <label *ngIf="!usuario.google" class="label label-primary">Normal</label>
                             </td>
                             <td>
-                                <button class="btn btn-primary">
-                                    <i (click)="guardarUsuario( usuario )" class="fa fa-save"></i>
+                                <button (click)="guardarUsuario( usuario )" class="btn btn-primary">
+                                    <i class="fa fa-save"></i>
                                 </button>
                                 <button (click)="borrarUsuario( usuario )" class="btn btn-danger">
                                     <i class="fa fa-trash-o"></i>
