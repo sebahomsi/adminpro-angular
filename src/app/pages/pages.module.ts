@@ -28,7 +28,7 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
 
 @NgModule({
     declarations: [
-        PagesComponent,
+        //PagesComponent,
         DashboardComponent,
         Graficas1Component,
         ProgressComponent,
@@ -39,14 +39,14 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
         RxjsComponent,
         ProfileComponent,
         UsuariosComponent,
-        ModalUploadComponent,
+        //ModalUploadComponent,
         HospitalComponent,
         MedicosComponent,
         MedicoComponent,
         BusquedaComponent
     ],
     exports: [
-        PagesComponent,
+        //PagesComponent,
         DashboardComponent,
         Graficas1Component,
         ProgressComponent
